@@ -1,0 +1,12 @@
+
+span[status='active'] {
+    color: blue;
+  }
+
+span[status='error'] {
+    color: red;
+  }
+
+span[status='found'] {
+color: green;
+}
