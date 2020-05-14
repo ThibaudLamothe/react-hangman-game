@@ -6,7 +6,7 @@ import './Screen.css'
 
 const Screen = ({word}) => (
     <div className='screen'>
-      <p>{word}</p>
+      <p>{word.toUpperCase()}</p>
     </div>
   )
 

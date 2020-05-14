@@ -1,0 +1,8 @@
+.screen{
+    display: flex;
+    background-color: hotpink;
+    justify-content: center;
+
+    font-size: 25px;
+  }
+

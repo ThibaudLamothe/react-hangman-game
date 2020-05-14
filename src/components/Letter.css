@@ -1,12 +1,24 @@
 
 span[status='active'] {
     color: blue;
+    background-color:aliceblue;
   }
 
 span[status='error'] {
     color: red;
+    background-color: lightpink;
   }
 
 span[status='found'] {
-color: green;
+  color: green;
+  background-color:lightgreen;
+}
+
+.letter{
+  width:25px;
+  height:25px;
+
+  margin:5px;
+  padding:3px;
+  border-radius:2px;
 }

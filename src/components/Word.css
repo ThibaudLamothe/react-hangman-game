@@ -1,0 +1,7 @@
+div[visible='false'] {
+    visibility: hidden;
+  }
+
+  div[visible='true'] {
+    visibility: visible;
+  }

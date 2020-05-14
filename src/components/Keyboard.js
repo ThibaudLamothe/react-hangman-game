@@ -19,7 +19,7 @@ function getLetterStatusCode(letter, keyboardLetter, foundLetter){
 }
 
 const Keyboard = ({keyboardLetter, foundLetter, onClickLetter}) => (
-    <div className='Keyboard'>
+    <div className='keyboard'>
         {ALPHABET.map((letter, index) => (
             <Letter
                 letter={letter}

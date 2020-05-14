@@ -6,7 +6,7 @@ import './Letter.css'
 
 const Letter = ({letter, statusCode, index, onClick}) => ( 
     <span className='letter' status={statusCode} onClick={() => onClick(index, letter)} disabled = {statusCode==='found'}>
-        <span > {letter} </span>
+        <span > {letter.toUpperCase()} </span>
     </span>
   )
 
